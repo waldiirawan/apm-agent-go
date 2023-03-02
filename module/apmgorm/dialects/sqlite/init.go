@@ -17,10 +17,10 @@
 
 // Package apmgormsqlite imports the gorm sqlite dialect package,
 // and also registers the sqlite3 driver with apmsql.
-package apmgormsqlite // import "go.elastic.co/apm/module/apmgorm/v2/dialects/sqlite"
+package apmgormsqlite // import "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/sqlite"
 
 import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite" // import the sqlite dialect
 
-	_ "go.elastic.co/apm/module/apmsql/v2/sqlite3" // register sqlite3 with apmsql
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlite3" // register sqlite3 with apmsql
 )

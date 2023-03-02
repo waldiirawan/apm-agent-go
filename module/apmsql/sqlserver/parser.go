@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmsqlserver // import "go.elastic.co/apm/module/apmsql/v2/sqlserver"
+package apmsqlserver // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlserver"
 
 import (
 	"github.com/denisenkom/go-mssqldb/msdsn"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 )
 
 // ParseDSN parses the given denisenkom/go-mssqldb datasource name.

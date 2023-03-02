@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package transport // import "go.elastic.co/apm/v2/transport"
+package transport // import "github.com/waldiirawan/apm-agent-go/v2/transport"
 
 import (
 	"context"

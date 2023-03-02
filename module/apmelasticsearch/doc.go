@@ -17,4 +17,4 @@
 
 // Package apmelasticsearch provides support for tracing the
 // HTTP transport layer of Elasticsearch clients.
-package apmelasticsearch // import "go.elastic.co/apm/module/apmelasticsearch/v2"
+package apmelasticsearch // import "github.com/waldiirawan/apm-agent-go/module/apmelasticsearch/v2"

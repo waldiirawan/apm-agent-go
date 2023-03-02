@@ -17,4 +17,4 @@
 
 // Package apmecho provides middleware for the Echo framework,
 // for tracing HTTP requests.
-package apmecho // import "go.elastic.co/apm/module/apmecho/v2"
+package apmecho // import "github.com/waldiirawan/apm-agent-go/module/apmecho/v2"

@@ -17,4 +17,4 @@
 
 // Package transporttest provides implementations of
 // transport.Transport for testing purposes.
-package transporttest // import "go.elastic.co/apm/v2/transport/transporttest"
+package transporttest // import "github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"

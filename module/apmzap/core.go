@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmzap // import "go.elastic.co/apm/module/apmzap/v2"
+package apmzap // import "github.com/waldiirawan/apm-agent-go/module/apmzap/v2"
 
 import (
 	"context"
@@ -23,8 +23,8 @@ import (
 
 	"go.uber.org/zap/zapcore"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
 )
 
 const (

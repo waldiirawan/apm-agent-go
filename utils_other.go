@@ -18,7 +18,7 @@
 //go:build !linux
 // +build !linux
 
-package apm // import "go.elastic.co/apm/v2"
+package apm // import "github.com/waldiirawan/apm-agent-go/v2"
 
 import (
 	"github.com/pkg/errors"

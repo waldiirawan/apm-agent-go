@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 func containerInfo() (*model.Container, error) {

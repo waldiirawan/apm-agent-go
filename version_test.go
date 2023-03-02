@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/internal/apmversion"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmversion"
 )
 
 func TestAgentVersion(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 const (

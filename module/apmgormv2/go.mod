@@ -1,4 +1,4 @@
-module go.elastic.co/apm/module/apmgormv2/v2
+module github.com/waldiirawan/apm-agent-go/module/apmgormv2/v2
 
 require (
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
@@ -8,8 +8,8 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/stretchr/testify v1.8.0
-	go.elastic.co/apm/module/apmsql/v2 v2.2.0
-	go.elastic.co/apm/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/module/apmsql/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/v2 v2.2.0
 	golang.org/x/tools v0.1.11 // indirect
 	gorm.io/driver/mysql v1.0.2
 	gorm.io/driver/postgres v1.3.4
@@ -18,8 +18,8 @@ require (
 	gorm.io/gorm v1.23.3
 )
 
-replace go.elastic.co/apm/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../..
 
-replace go.elastic.co/apm/module/apmsql/v2 => ../apmsql
+replace github.com/waldiirawan/apm-agent-go/module/apmsql/v2 => ../apmsql
 
 go 1.15

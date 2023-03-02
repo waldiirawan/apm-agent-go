@@ -18,4 +18,4 @@
 // Package apmmysql registers the "mysql" driver with
 // apmsql, so that you can trace go-sql-driver/mysql
 // database connections.
-package apmmysql // import "go.elastic.co/apm/module/apmsql/v2/mysql"
+package apmmysql // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/mysql"

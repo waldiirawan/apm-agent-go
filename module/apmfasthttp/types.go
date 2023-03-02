@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmfasthttp // import "go.elastic.co/apm/module/apmfasthttp/v2"
+package apmfasthttp // import "github.com/waldiirawan/apm-agent-go/module/apmfasthttp/v2"
 
 import (
 	"github.com/valyala/fasthttp"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 type apmHandler struct {

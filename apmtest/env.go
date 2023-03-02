@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmtest // import "go.elastic.co/apm/v2/apmtest"
+package apmtest // import "github.com/waldiirawan/apm-agent-go/v2/apmtest"
 
 import "os"
 

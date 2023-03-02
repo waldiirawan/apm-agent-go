@@ -18,4 +18,4 @@
 // Package apmsqlserver registers the "sqlserver" driver with
 // apmsql, so that you can trace denisenkom/go-mssqldb
 // database connections.
-package apmsqlserver // import "go.elastic.co/apm/module/apmsql/v2/sqlserver"
+package apmsqlserver // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlserver"

@@ -1,9 +1,9 @@
 module tracecontexttest
 
-require go.elastic.co/apm/module/apmhttp/v2 v2.0.0
+require github.com/waldiirawan/apm-agent-go/module/apmhttp/v2 v2.0.0
 
-replace go.elastic.co/apm/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../..
 
-replace go.elastic.co/apm/module/apmhttp/v2 => ../../module/apmhttp
+replace github.com/waldiirawan/apm-agent-go/module/apmhttp/v2 => ../../module/apmhttp
 
 go 1.13

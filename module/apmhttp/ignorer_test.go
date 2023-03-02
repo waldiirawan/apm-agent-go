@@ -28,7 +28,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 )
 
 func TestServerRequestIgnorer(t *testing.T) {

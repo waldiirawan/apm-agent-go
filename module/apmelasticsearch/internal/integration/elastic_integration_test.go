@@ -29,9 +29,9 @@ import (
 
 	elasticsearch "github.com/elastic/go-elasticsearch/v7"
 
-	"go.elastic.co/apm/module/apmelasticsearch/v2"
-	"go.elastic.co/apm/v2/apmtest"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/module/apmelasticsearch/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 func TestElastic(t *testing.T) {

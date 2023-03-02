@@ -17,15 +17,15 @@
 
 // Package apmsqlserver imports the gorm sqlserver dialect package,
 // and also registers the sqlserver driver with apmsql.
-package apmsqlserver // import "go.elastic.co/apm/module/apmgormv2/v2/driver/sqlserver"
+package apmsqlserver // import "github.com/waldiirawan/apm-agent-go/module/apmgormv2/v2/driver/sqlserver"
 
 import (
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 
-	_ "go.elastic.co/apm/module/apmsql/v2/sqlserver" // register sqlserver with apmsql
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlserver" // register sqlserver with apmsql
 )
 
 // Open creates a dialect with apmsql

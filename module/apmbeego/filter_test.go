@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/module/apmbeego/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/module/apmbeego/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 func TestMiddleware(t *testing.T) {

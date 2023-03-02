@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmhttprouter // import "go.elastic.co/apm/module/apmhttprouter/v2"
+package apmhttprouter // import "github.com/waldiirawan/apm-agent-go/module/apmhttprouter/v2"
 
 import (
 	"context"

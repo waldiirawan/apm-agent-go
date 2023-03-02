@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmbeego // import "go.elastic.co/apm/module/apmbeego/v2"
+package apmbeego // import "github.com/waldiirawan/apm-agent-go/module/apmbeego/v2"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 	"github.com/astaxie/beego"
 	beegocontext "github.com/astaxie/beego/context"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 type beegoFilterStateKey struct{}

@@ -16,4 +16,4 @@
 // under the License.
 
 // Package apmgopg provides wrappers for tracing go-pg operations.
-package apmgopg // import "go.elastic.co/apm/module/apmgopg/v2"
+package apmgopg // import "github.com/waldiirawan/apm-agent-go/module/apmgopg/v2"

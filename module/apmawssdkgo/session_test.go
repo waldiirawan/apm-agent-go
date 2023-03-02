@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmawssdkgo // import "go.elastic.co/apm/module/apmawssdkgo/v2"
+package apmawssdkgo // import "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/v2"
 
 import (
 	"bytes"
@@ -32,8 +32,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
 )
 
 func TestS3(t *testing.T) {

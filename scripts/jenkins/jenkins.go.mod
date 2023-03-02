@@ -1,4 +1,4 @@
-module go.elastic.co/apm/scripts/jenkins
+module github.com/waldiirawan/apm-agent-go/scripts/jenkins
 
 go 1.15
 

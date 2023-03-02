@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmpgx // import "go.elastic.co/apm/module/apmpgx/v2"
+package apmpgx // import "github.com/waldiirawan/apm-agent-go/module/apmpgx/v2"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 	"strings"
 	"time"
 
-	"go.elastic.co/apm/module/apmsql/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 
 	"github.com/jackc/pgx/v4"
 )

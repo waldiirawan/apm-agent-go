@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	"go.elastic.co/apm/module/apmfasthttp/v2"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/module/apmfasthttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 type assertFunc func(model.Transaction, *http.Response)

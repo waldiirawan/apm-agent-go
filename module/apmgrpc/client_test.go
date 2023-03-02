@@ -32,12 +32,12 @@ import (
 	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 	"google.golang.org/grpc/status"
 
-	"go.elastic.co/apm/module/apmgrpc/v2/internal/testservice"
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/apmtest"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2/internal/testservice"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 func TestClientSpan(t *testing.T) {

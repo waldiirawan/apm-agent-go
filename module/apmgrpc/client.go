@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmgrpc // import "go.elastic.co/apm/module/apmgrpc/v2"
+package apmgrpc // import "github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2"
 
 import (
 	"net"
@@ -30,8 +30,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // NewUnaryClientInterceptor returns a grpc.UnaryClientInterceptor that

@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/module/apmsql/v2"
-	_ "go.elastic.co/apm/module/apmsql/v2/sqlite3"
-	"go.elastic.co/apm/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlite3"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
 )
 
 type User struct {

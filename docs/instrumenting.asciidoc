@@ -45,7 +45,7 @@ https://golang.org/pkg/net/http/#Request.Context[http.Request.Context] in your h
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 )
 
 func main() {
@@ -72,8 +72,8 @@ import (
 
 	"golang.org/x/net/context/ctxhttp"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 )
 
 var tracingClient = apmhttp.WrapClient(http.DefaultClient)
@@ -107,7 +107,7 @@ https://pkg.go.dev/github.com/valyala/fasthttp#RequestCtx[fasthttp.RequestCtx] i
 import (
 	"github.com/valyala/fasthttp"
 
-	"go.elastic.co/apm/module/apmfasthttp/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmfasthttp/v2"
 )
 
 func main() {
@@ -137,7 +137,7 @@ https://godoc.org/github.com/labstack/echo#Context[echo.Context]`.Request().Cont
 import (
 	echo "github.com/labstack/echo/v4"
 
-	"go.elastic.co/apm/module/apmechov4/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmechov4/v2"
 )
 
 func main() {
@@ -160,7 +160,7 @@ https://godoc.org/github.com/gin-gonic/gin#Context[gin.Context]`.Request.Context
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmgin/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgin/v2"
 )
 
 func main() {
@@ -182,7 +182,7 @@ https://pkg.go.dev/github.com/gofiber/fiber/v2#Ctx[fiber.Ctx]`.Context()` in you
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmfiber/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmfiber/v2"
 )
 
 func main() {
@@ -210,8 +210,8 @@ in your controller.
 import (
 	"github.com/astaxie/beego"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/module/apmbeego/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmbeego/v2"
 )
 
 type thingController struct{beego.Controller}
@@ -241,7 +241,7 @@ https://golang.org/pkg/net/http/#Request[http.Request]`.Context()` in your handl
 import (
 	"github.com/gorilla/mux"
 
-	"go.elastic.co/apm/module/apmgorilla/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgorilla/v2"
 )
 
 func main() {
@@ -263,7 +263,7 @@ context passed into the method.
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmgrpc/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2"
 )
 
 func main() {
@@ -313,7 +313,7 @@ https://golang.org/pkg/net/http/#Request[http.Request]`.Context()` in your handl
 import (
 	"github.com/julienschmidt/httprouter"
 
-	"go.elastic.co/apm/module/apmhttprouter/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttprouter/v2"
 )
 
 func main() {
@@ -333,7 +333,7 @@ is `*apmhttprouter.Router`, and not `*httprouter.Router`.
 
 [source,go]
 ----
-import "go.elastic.co/apm/module/apmhttprouter/v2"
+import "github.com/waldiirawan/apm-agent-go/module/apmhttprouter/v2"
 
 func main() {
 	router := apmhttprouter.New()
@@ -356,7 +356,7 @@ https://golang.org/pkg/net/http/#Request.Context[http.Request.Context] in your h
 import (
 	"net/http"
 
-	"go.elastic.co/apm/module/apmnegroni/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmnegroni/v2"
 )
 
 func serverHandler(w http.ResponseWriter, req *http.Request) {
@@ -384,7 +384,7 @@ Importing the package is enough to report the function invocations.
 [source,go]
 ----
 import (
-	_ "go.elastic.co/apm/module/apmlambda/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmlambda/v2"
 )
 ----
 
@@ -412,9 +412,9 @@ with apmsql.Register:
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmsql/v2"
-	_ "go.elastic.co/apm/module/apmsql/v2/pq"
-	_ "go.elastic.co/apm/module/apmsql/v2/sqlite3"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/pq"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlite3"
 )
 
 func main() {
@@ -438,7 +438,7 @@ a context that contains an apm transaction.
 import (
 	"github.com/go-pg/pg"
 
-	"go.elastic.co/apm/module/apmgopg/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgopg/v2"
 )
 
 func main() {
@@ -463,7 +463,7 @@ a context that contains an apm transaction.
 import (
 	"github.com/go-pg/pg/v10"
 
-	"go.elastic.co/apm/module/apmgopgv10/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgopgv10/v2"
 )
 
 func main() {
@@ -488,8 +488,8 @@ propagate a context containing a transaction to the operations:
 [source,go]
 ----
 import (
-	"go.elastic.co/apm/module/apmgorm/v2"
-	_ "go.elastic.co/apm/module/apmgorm/v2/dialects/postgres"
+	"github.com/waldiirawan/apm-agent-go/module/apmgorm/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/postgres"
 )
 
 func main() {
@@ -513,7 +513,7 @@ propagate a context containing a transaction to the operations:
 ----
 import (
 	"gorm.io/gorm"
-	postgres "go.elastic.co/apm/module/apmgormv2/v2/driver/postgres"
+	postgres "github.com/waldiirawan/apm-agent-go/module/apmgormv2/v2/driver/postgres"
 )
 
 func main() {
@@ -541,7 +541,7 @@ context includes a transaction.
 import (
 	"github.com/gocql/gocql"
 
-	"go.elastic.co/apm/module/apmgocql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgocql/v2"
 )
 
 func main() {
@@ -581,7 +581,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"go.elastic.co/apm/module/apmredigo/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmredigo/v2"
 )
 
 var redisPool *redis.Pool // initialized at program startup
@@ -616,7 +616,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"go.elastic.co/apm/module/apmgoredis/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgoredis/v2"
 )
 
 var redisClient *redis.Client // initialized at program startup
@@ -644,7 +644,7 @@ from instance of `redis.Client`, `redis.ClusterClient`, or `redis.Ring`.
 import (
 	"github.com/go-redis/redis/v8"
 
-	apmgoredis "go.elastic.co/apm/module/apmgoredisv8/v2"
+	apmgoredis "github.com/waldiirawan/apm-agent-go/module/apmgoredisv8/v2"
 )
 
 func main() {
@@ -670,7 +670,7 @@ https://golang.org/pkg/net/http/#Request[http.Request]`.Context()` in your handl
 import (
 	"github.com/emicklei/go-restful"
 
-	"go.elastic.co/apm/module/apmrestful/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmrestful/v2"
 )
 
 func init() {
@@ -701,7 +701,7 @@ https://golang.org/pkg/net/http/#Request[http.Request]`.Context()` in your handl
 import (
 	"github.com/go-chi/chi"
 
-	"go.elastic.co/apm/module/apmchi/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmchi/v2"
 )
 
 func main() {
@@ -723,7 +723,7 @@ for adding trace context fields to log records.
 import (
 	"github.com/sirupsen/logrus"
 
-	"go.elastic.co/apm/module/apmlogrus/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmlogrus/v2"
 )
 
 func init() {
@@ -753,7 +753,7 @@ for adding trace context fields to log records.
 import (
 	"go.uber.org/zap"
 
-	"go.elastic.co/apm/module/apmzap/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmzap/v2"
 )
 
 // apmzap.Core.WrapCore will wrap the core created by zap.NewExample
@@ -788,7 +788,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"go.elastic.co/apm/module/apmzerolog/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmzerolog/v2"
 )
 
 // apmzerolog.Writer will send log records with the level error or greater to Elastic APM.
@@ -832,7 +832,7 @@ import (
 
 	"github.com/olivere/elastic"
 
-	"go.elastic.co/apm/module/apmelasticsearch/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmelasticsearch/v2"
 )
 
 var client, _ = elastic.NewClient(elastic.SetHttpClient(&http.Client{
@@ -865,7 +865,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	"go.elastic.co/apm/module/apmmongo/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmmongo/v2"
 )
 
 var client, _ = mongo.Connect(
@@ -910,7 +910,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 
-	"go.elastic.co/apm/module/apmawssdkgo/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/v2"
 )
 
 func main() {
@@ -956,7 +956,7 @@ The following services are supported:
 import (
   "github.com/Azure/azure-storage-blob-go/azblob"
 
-  "go.elastic.co/apm/module/apmazure/v2"
+  "github.com/waldiirawan/apm-agent-go/module/apmazure/v2"
 )
 
 func main() {

@@ -38,11 +38,11 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/test/bufconn"
 
-	"go.elastic.co/apm/module/apmgrpc/v2"
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/apmtest"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 type featureContext struct {

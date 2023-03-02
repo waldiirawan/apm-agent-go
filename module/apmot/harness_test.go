@@ -26,9 +26,9 @@ import (
 	"github.com/opentracing/opentracing-go/harness"
 	"github.com/stretchr/testify/suite"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
 )
 
 var tracerOptions = []Option{WithTracer(apmtest.DiscardTracer)}

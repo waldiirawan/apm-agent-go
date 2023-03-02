@@ -17,4 +17,4 @@
 
 // Package apmfasthttp provides a tracing middleware fasthttp.RequestHandler for
 // servers.
-package apmfasthttp // import "go.elastic.co/apm/module/apmfasthttp/v2"
+package apmfasthttp // import "github.com/waldiirawan/apm-agent-go/module/apmfasthttp/v2"

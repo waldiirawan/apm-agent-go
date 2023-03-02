@@ -6,14 +6,14 @@ require (
 	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 // indirect
 	github.com/olivere/elastic v6.2.16+incompatible
 	github.com/stretchr/testify v1.6.1
-	go.elastic.co/apm/module/apmelasticsearch/v2 v2.1.0
-	go.elastic.co/apm/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/module/apmelasticsearch/v2 v2.1.0
+	github.com/waldiirawan/apm-agent-go/v2 v2.2.0
 )
 
-replace go.elastic.co/apm/v2 => ../../../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../../../..
 
-replace go.elastic.co/apm/module/apmelasticsearch/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/module/apmelasticsearch/v2 => ../..
 
-replace go.elastic.co/apm/module/apmhttp/v2 => ../../../apmhttp
+replace github.com/waldiirawan/apm-agent-go/module/apmhttp/v2 => ../../../apmhttp
 
 go 1.13

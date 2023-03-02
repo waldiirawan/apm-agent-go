@@ -42,13 +42,13 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.elastic.co/apm/module/apmgrpc/v2"
-	"go.elastic.co/apm/module/apmgrpc/v2/internal/testservice"
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/stacktrace"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2/internal/testservice"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 func init() {

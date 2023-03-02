@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmazure // import "go.elastic.co/apm/module/apmazure/v2"
+package apmazure // import "github.com/waldiirawan/apm-agent-go/module/apmazure/v2"
 
 import (
 	"context"
@@ -24,9 +24,9 @@ import (
 
 	"github.com/Azure/azure-pipeline-go/pipeline"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
 )
 
 func init() {

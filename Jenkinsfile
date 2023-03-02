@@ -6,7 +6,7 @@ pipeline {
   agent { label 'linux && immutable' }
   environment {
     REPO = 'apm-agent-go'
-    BASE_DIR = "src/go.elastic.co/apm"
+    BASE_DIR = "src/github.com/waldiirawan/apm-agent-go"
     NOTIFY_TO = credentials('notify-to')
     JOB_GCS_BUCKET = credentials('gcs-bucket')
     CODECOV_SECRET = 'secret/apm-team/ci/apm-agent-go-codecov'

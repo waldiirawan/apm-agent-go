@@ -32,10 +32,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/module/apmzerolog/v2"
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/module/apmzerolog/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 func ExampleWriter() {
@@ -161,7 +161,7 @@ func TestWriterWithError(t *testing.T) {
 	assert.Equal(t, "makeError", err0.Exception.Stacktrace[0].Function)
 	assert.Equal(t, "(*Writer).WriteLevel", err0.Log.Stacktrace[0].Function)
 
-	assert.Equal(t, "go.elastic.co/apm/module/apmzerolog/v2_test", err0.Exception.Stacktrace[0].Module)
+	assert.Equal(t, "github.com/waldiirawan/apm-agent-go/module/apmzerolog/v2_test", err0.Exception.Stacktrace[0].Module)
 	assert.NotEmpty(t, err0.Exception.Stacktrace[0].AbsolutePath)
 }
 

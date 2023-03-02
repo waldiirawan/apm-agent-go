@@ -42,8 +42,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/v2/apmconfig"
-	"go.elastic.co/apm/v2/transport"
+	"github.com/waldiirawan/apm-agent-go/v2/apmconfig"
+	"github.com/waldiirawan/apm-agent-go/v2/transport"
 )
 
 func init() {

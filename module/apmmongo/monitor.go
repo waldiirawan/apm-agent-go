@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmmongo // import "go.elastic.co/apm/module/apmmongo/v2"
+package apmmongo // import "github.com/waldiirawan/apm-agent-go/module/apmmongo/v2"
 
 import (
 	"context"
@@ -29,7 +29,7 @@ import (
 	"go.mongodb.org/mongo-driver/event"
 	"go.mongodb.org/mongo-driver/mongo"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 var (

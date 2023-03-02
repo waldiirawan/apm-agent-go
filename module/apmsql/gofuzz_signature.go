@@ -18,12 +18,12 @@
 //go:build gofuzz
 // +build gofuzz
 
-package apmsql_test // import "go.elastic.co/apm/module/apmsql/v2"
+package apmsql_test // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 
 import (
 	"strings"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 )
 
 func Fuzz(data []byte) int {

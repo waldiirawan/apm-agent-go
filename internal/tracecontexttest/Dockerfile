@@ -1,8 +1,8 @@
 FROM golang:latest
-ADD . /go/src/go.elastic.co/apm
+ADD . /go/src/github.com/waldiirawan/apm-agent-go
 ENV GO111MODULE=on
 ENV GOPROXY=https://proxy.golang.org
-WORKDIR /go/src/go.elastic.co/apm/internal/tracecontexttest
+WORKDIR /go/src/github.com/waldiirawan/apm-agent-go/internal/tracecontexttest
 RUN go build -o /trace-context-service main.go
 
 EXPOSE 5000/tcp

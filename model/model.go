@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package model // import "go.elastic.co/apm/v2/model"
+package model // import "github.com/waldiirawan/apm-agent-go/v2/model"
 
 import (
 	"net/http"

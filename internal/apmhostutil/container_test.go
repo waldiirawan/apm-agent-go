@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/v2/internal/apmhostutil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmhostutil"
 )
 
 func TestContainerID(t *testing.T) {

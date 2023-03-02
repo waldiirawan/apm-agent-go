@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmgorm // import "go.elastic.co/apm/module/apmgorm/v2"
+package apmgorm // import "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"go.elastic.co/apm/module/apmsql/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 const (

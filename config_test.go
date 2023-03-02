@@ -36,12 +36,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/apmconfig"
-	"go.elastic.co/apm/v2/apmtest"
-	"go.elastic.co/apm/v2/internal/apmlog"
-	"go.elastic.co/apm/v2/transport"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmconfig"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmlog"
+	"github.com/waldiirawan/apm-agent-go/v2/transport"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 func TestTracerCentralConfigUpdate(t *testing.T) {

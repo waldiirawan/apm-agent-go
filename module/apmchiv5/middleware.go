@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmchiv5 // import "go.elastic.co/apm/module/apmchiv5/v2"
+package apmchiv5 // import "github.com/waldiirawan/apm-agent-go/module/apmchiv5/v2"
 
 import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // Middleware returns a new chi middleware handler

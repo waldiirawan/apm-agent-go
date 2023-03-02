@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmzerolog // import "go.elastic.co/apm/module/apmzerolog/v2"
+package apmzerolog // import "github.com/waldiirawan/apm-agent-go/module/apmzerolog/v2"
 
 import (
 	"bytes"
@@ -30,8 +30,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/pkgerrors"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
 )
 
 const (

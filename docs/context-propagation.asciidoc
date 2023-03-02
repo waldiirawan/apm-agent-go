@@ -26,10 +26,10 @@ in order to create spans within that transaction, e.g. to measure the duration o
 import (
 	"net/http"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/module/apmsql/v2"
-	_ "go.elastic.co/apm/module/apmsql/v2/pq"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/pq"
 )
 
 var db *sql.DB

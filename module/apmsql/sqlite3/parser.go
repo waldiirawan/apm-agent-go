@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmsqlite3 // import "go.elastic.co/apm/module/apmsql/v2/sqlite3"
+package apmsqlite3 // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlite3"
 
 import (
 	"strings"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 )
 
 // ParseDSN parses the sqlite3 datasource name.

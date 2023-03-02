@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmtest // import "go.elastic.co/apm/v2/apmtest"
+package apmtest // import "github.com/waldiirawan/apm-agent-go/v2/apmtest"
 
 import (
 	"context"
 	"fmt"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 // NewRecordingTracer returns a new RecordingTracer, containing a new

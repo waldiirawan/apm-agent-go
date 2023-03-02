@@ -20,7 +20,7 @@ package apm_test
 import (
 	"context"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 func ExampleContext_SetUserID() {

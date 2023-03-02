@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmgrpc // import "go.elastic.co/apm/module/apmgrpc/v2"
+package apmgrpc // import "github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2"
 
 import (
 	"regexp"

@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apm // import "go.elastic.co/apm/v2"
+package apm // import "github.com/waldiirawan/apm-agent-go/v2"
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 const (

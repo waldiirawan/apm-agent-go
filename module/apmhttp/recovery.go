@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmhttp // import "go.elastic.co/apm/module/apmhttp/v2"
+package apmhttp // import "github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 
 import (
 	"net/http"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // RecoveryFunc is the type of a function for use in WithRecovery.

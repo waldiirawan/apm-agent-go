@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmtest // import "go.elastic.co/apm/v2/apmtest"
+package apmtest // import "github.com/waldiirawan/apm-agent-go/v2/apmtest"
 
 import (
 	"bytes"
@@ -27,7 +27,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 // WriteTraceTable displays the trace as a table which can be used on tests to aid

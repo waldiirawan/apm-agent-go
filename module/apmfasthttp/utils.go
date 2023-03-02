@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmfasthttp // import "go.elastic.co/apm/module/apmfasthttp/v2"
+package apmfasthttp // import "github.com/waldiirawan/apm-agent-go/module/apmfasthttp/v2"
 
 import (
 	"net/url"
@@ -23,8 +23,8 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 func getRequestTraceparent(ctx *fasthttp.RequestCtx, header string) (apm.TraceContext, bool) {

@@ -27,7 +27,7 @@ import (
 	"log"
 	"net/http"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 )
 
 var (

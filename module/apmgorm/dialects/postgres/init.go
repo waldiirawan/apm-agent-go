@@ -17,10 +17,10 @@
 
 // Package apmgormpostgres imports the gorm postgres dialect package,
 // and also registers the lib/pq driver with apmsql.
-package apmgormpostgres // import "go.elastic.co/apm/module/apmgorm/v2/dialects/postgres"
+package apmgormpostgres // import "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/postgres"
 
 import (
 	_ "github.com/jinzhu/gorm/dialects/postgres" // import the postgres dialect
 
-	_ "go.elastic.co/apm/module/apmsql/v2/pq" // register lib/pq with apmsql
+	_ "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/pq" // register lib/pq with apmsql
 )

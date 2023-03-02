@@ -17,4 +17,4 @@
 
 // Package apmawssdkgo provides tracing and error-reporting middleware for
 // aws-sdk-go.
-package apmawssdkgo // import "go.elastic.co/apm/module/apmawssdkgo/v2"
+package apmawssdkgo // import "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/v2"

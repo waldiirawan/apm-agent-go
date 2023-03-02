@@ -17,4 +17,4 @@
 
 // Package apmpq registers the "postgres" driver with
 // apmsql, so that you can trace lib/pq database connections.
-package apmpq // import "go.elastic.co/apm/module/apmsql/v2/pq"
+package apmpq // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/pq"

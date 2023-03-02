@@ -17,4 +17,4 @@
 
 // Package stacktrace provides a simplified stack frame type,
 // functions for obtaining stack frames, and related utilities.
-package stacktrace // import "go.elastic.co/apm/v2/stacktrace"
+package stacktrace // import "github.com/waldiirawan/apm-agent-go/v2/stacktrace"

@@ -1,14 +1,14 @@
-module go.elastic.co/apm/module/apmpgx/v2
+module github.com/waldiirawan/apm-agent-go/module/apmpgx/v2
 
 go 1.15
 
 require (
 	github.com/jackc/pgx/v4 v4.17.0
 	github.com/stretchr/testify v1.8.0
-	go.elastic.co/apm/module/apmsql/v2 v2.2.0
-	go.elastic.co/apm/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/module/apmsql/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/v2 v2.2.0
 )
 
-replace go.elastic.co/apm/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../..
 
-replace go.elastic.co/apm/module/apmsql/v2 => ../apmsql
+replace github.com/waldiirawan/apm-agent-go/module/apmsql/v2 => ../apmsql

@@ -18,14 +18,14 @@
 //go:build go1.18
 // +build go1.18
 
-package apmpgxv5 // import "go.elastic.co/apm/module/apmpgxv5/v2"
+package apmpgxv5 // import "github.com/waldiirawan/apm-agent-go/module/apmpgxv5/v2"
 
 import (
 	"context"
 
 	"github.com/jackc/pgx/v5"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // QueryTracer traces Query, QueryRow, and Exec

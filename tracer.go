@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apm // import "go.elastic.co/apm/v2"
+package apm // import "github.com/waldiirawan/apm-agent-go/v2"
 
 import (
 	"bytes"
@@ -29,14 +29,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.elastic.co/apm/v2/apmconfig"
-	"go.elastic.co/apm/v2/internal/apmlog"
-	"go.elastic.co/apm/v2/internal/configutil"
-	"go.elastic.co/apm/v2/internal/iochan"
-	"go.elastic.co/apm/v2/internal/ringbuffer"
-	"go.elastic.co/apm/v2/internal/wildcard"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport"
+	"github.com/waldiirawan/apm-agent-go/v2/apmconfig"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmlog"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/configutil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/iochan"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/ringbuffer"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/wildcard"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport"
 	"go.elastic.co/fastjson"
 )
 

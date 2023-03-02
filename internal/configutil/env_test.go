@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/v2/internal/configutil"
-	"go.elastic.co/apm/v2/internal/wildcard"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/configutil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/wildcard"
 )
 
 func TestParseDurationEnv(t *testing.T) {

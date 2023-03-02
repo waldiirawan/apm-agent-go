@@ -17,4 +17,4 @@
 
 // Package apmconfig provides an API for watching agent config
 // changes.
-package apmconfig // import "go.elastic.co/apm/v2/apmconfig"
+package apmconfig // import "github.com/waldiirawan/apm-agent-go/v2/apmconfig"

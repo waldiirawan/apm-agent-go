@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/v2/internal/apmhttputil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmhttputil"
 )
 
 func TestParseForwarded(t *testing.T) {

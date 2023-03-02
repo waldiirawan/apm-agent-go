@@ -13,7 +13,7 @@ for dir in $(scripts/moduledirs.sh); do
     (
     cd $dir
     for pkg in $(go list ./...); do
-        go test -coverpkg=go.elastic.co/apm/... -coverprofile=$profile_out -covermode=atomic $pkg 1>&2
+        go test -coverpkg=github.com/waldiirawan/apm-agent-go/... -coverprofile=$profile_out -covermode=atomic $pkg 1>&2
         if [ -f $profile_out ]; then
             grep -v "mode: atomic" $profile_out || true
             rm $profile_out

@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmsql // import "go.elastic.co/apm/module/apmsql/v2"
+package apmsql // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 
 import (
 	"strings"
 
-	"go.elastic.co/apm/v2/sqlutil"
+	"github.com/waldiirawan/apm-agent-go/v2/sqlutil"
 )
 
 // QuerySignature returns the "signature" for a query:

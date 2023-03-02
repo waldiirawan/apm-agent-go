@@ -34,7 +34,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 var (
@@ -78,7 +78,7 @@ func main() {
 					return err
 				}
 				// Skip non-public modules.
-				if strings.HasPrefix(gomod.Module.Path, "go.elastic.co/apm") {
+				if strings.HasPrefix(gomod.Module.Path, "github.com/waldiirawan/apm-agent-go") {
 					modules[gomod.Module.Path] = gomod
 				}
 			}

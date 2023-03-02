@@ -17,4 +17,4 @@
 
 // Package apmchi provides middleware for the Chi router,
 // for tracing HTTP requests.
-package apmchi // import "go.elastic.co/apm/module/apmchi/v2"
+package apmchi // import "github.com/waldiirawan/apm-agent-go/module/apmchi/v2"

@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmgorm // import "go.elastic.co/apm/module/apmgorm/v2"
+package apmgorm // import "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2"
 
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 )
 
 // Open returns a *gorm.DB for the given dialect and arguments.

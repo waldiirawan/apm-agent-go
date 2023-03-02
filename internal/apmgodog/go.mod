@@ -4,15 +4,15 @@ go 1.13
 
 require (
 	github.com/cucumber/godog v0.12.2
-	go.elastic.co/apm/module/apmgrpc/v2 v2.1.0
-	go.elastic.co/apm/module/apmhttp/v2 v2.2.0
-	go.elastic.co/apm/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2 v2.1.0
+	github.com/waldiirawan/apm-agent-go/module/apmhttp/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/v2 v2.2.0
 	go.elastic.co/fastjson v1.1.0
 	google.golang.org/grpc v1.21.1
 )
 
-replace go.elastic.co/apm/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../..
 
-replace go.elastic.co/apm/module/apmgrpc/v2 => ../../module/apmgrpc
+replace github.com/waldiirawan/apm-agent-go/module/apmgrpc/v2 => ../../module/apmgrpc
 
-replace go.elastic.co/apm/module/apmhttp/v2 => ../../module/apmhttp
+replace github.com/waldiirawan/apm-agent-go/module/apmhttp/v2 => ../../module/apmhttp

@@ -17,4 +17,4 @@
 
 // Package apmrestfulv3 provides a tracing and panic/exception
 // reporting filter for for the go-restful framework version 3.
-package apmrestfulv3 // import "go.elastic.co/apm/module/apmrestfulv3/v2"
+package apmrestfulv3 // import "github.com/waldiirawan/apm-agent-go/module/apmrestfulv3/v2"

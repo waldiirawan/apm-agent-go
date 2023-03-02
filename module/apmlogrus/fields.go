@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmlogrus // import "go.elastic.co/apm/module/apmlogrus/v2"
+package apmlogrus // import "github.com/waldiirawan/apm-agent-go/module/apmlogrus/v2"
 
 import (
 	"context"
 
 	"github.com/sirupsen/logrus"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 const (

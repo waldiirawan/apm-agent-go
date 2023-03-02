@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmtest // import "go.elastic.co/apm/v2/apmtest"
+package apmtest // import "github.com/waldiirawan/apm-agent-go/v2/apmtest"
 
 import (
 	"net/http"
@@ -25,9 +25,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/model"
-	"go.elastic.co/apm/v2/transport/transporttest"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/transport/transporttest"
 )
 
 // HTTPTestSuite is a test suite for HTTP instrumentation modules.

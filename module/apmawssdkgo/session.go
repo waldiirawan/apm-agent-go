@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmawssdkgo // import "go.elastic.co/apm/module/apmawssdkgo/v2"
+package apmawssdkgo // import "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/v2"
 
 import (
 	"context"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
 
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/aws/session"
@@ -38,15 +38,15 @@ func init() {
 // variable below.
 func WrapSession(s *session.Session) *session.Session {
 	s.Handlers.Build.PushFrontNamed(request.NamedHandler{
-		Name: "go.elastic.co/apm/module/apmawssdkgo/build",
+		Name: "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/build",
 		Fn:   build,
 	})
 	s.Handlers.Send.PushFrontNamed(request.NamedHandler{
-		Name: "go.elastic.co/apm/module/apmawssdkgo/send",
+		Name: "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/send",
 		Fn:   send,
 	})
 	s.Handlers.Complete.PushBackNamed(request.NamedHandler{
-		Name: "go.elastic.co/apm/module/apmawssdkgo/complete",
+		Name: "github.com/waldiirawan/apm-agent-go/module/apmawssdkgo/complete",
 		Fn:   complete,
 	})
 

@@ -16,4 +16,4 @@
 // under the License.
 
 // Package apmpgxv5 provides helpers for tracing github.com/jackc/pgx/v5. Minimal required version is v5
-package apmpgxv5 // import "go.elastic.co/apm/module/apmpgxv5/v2"
+package apmpgxv5 // import "github.com/waldiirawan/apm-agent-go/module/apmpgxv5/v2"

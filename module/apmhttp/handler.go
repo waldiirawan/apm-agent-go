@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmhttp // import "go.elastic.co/apm/module/apmhttp/v2"
+package apmhttp // import "github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
 
 import (
 	"context"
 	"io"
 	"net/http"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // Wrap returns an http.Handler wrapping h, reporting each request as

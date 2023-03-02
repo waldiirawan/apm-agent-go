@@ -6,13 +6,13 @@ by Elastic APM.
 
 ## Usage
 
-Swap `gorm.io/driver/*` to `go.elastic.co/apm/module/apmgormv2/driver/*`
+Swap `gorm.io/driver/*` to `github.com/waldiirawan/apm-agent-go/module/apmgormv2/driver/*`
 
 Example :-
 
 ```golang
 import (
-    mysql "go.elastic.co/apm/module/apmgormv2/driver/mysql"
+    mysql "github.com/waldiirawan/apm-agent-go/module/apmgormv2/driver/mysql"
     "gorm.io/gorm"
 )	
 

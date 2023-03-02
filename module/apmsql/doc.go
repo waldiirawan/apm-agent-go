@@ -16,4 +16,4 @@
 // under the License.
 
 // Package apmsql provides wrappers for tracing SQL query spans.
-package apmsql // import "go.elastic.co/apm/module/apmsql/v2"
+package apmsql // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2"

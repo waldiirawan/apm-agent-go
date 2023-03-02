@@ -20,8 +20,8 @@ package apmechov4_test
 import (
 	"github.com/labstack/echo/v4"
 
-	apmecho "go.elastic.co/apm/module/apmechov4/v2"
-	"go.elastic.co/apm/v2"
+	apmecho "github.com/waldiirawan/apm-agent-go/module/apmechov4/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 func ExampleMiddleware() {

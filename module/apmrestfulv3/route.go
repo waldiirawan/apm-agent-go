@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmrestfulv3 // import "go.elastic.co/apm/module/apmrestfulv3/v2"
+package apmrestfulv3 // import "github.com/waldiirawan/apm-agent-go/module/apmrestfulv3/v2"
 
 import (
 	"bytes"

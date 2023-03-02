@@ -27,13 +27,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/module/apmgorm/v2"
-	_ "go.elastic.co/apm/module/apmgorm/v2/dialects/mysql"
-	_ "go.elastic.co/apm/module/apmgorm/v2/dialects/postgres"
-	_ "go.elastic.co/apm/module/apmgorm/v2/dialects/sqlite"
-	"go.elastic.co/apm/module/apmsql/v2"
-	"go.elastic.co/apm/v2/apmtest"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/module/apmgorm/v2"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/mysql"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/postgres"
+	_ "github.com/waldiirawan/apm-agent-go/module/apmgorm/v2/dialects/sqlite"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/apmtest"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 type Product struct {

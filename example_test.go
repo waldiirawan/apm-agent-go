@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // ExampleTracer shows how to use the Tracer API

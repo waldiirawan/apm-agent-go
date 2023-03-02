@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmot // import "go.elastic.co/apm/module/apmot/v2"
+package apmot // import "github.com/waldiirawan/apm-agent-go/module/apmot/v2"
 
 import (
 	"time"
 
 	"github.com/opentracing/opentracing-go/log"
 
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 func logKV(tracer *apm.Tracer, tx *apm.Transaction, span *apm.Span, time time.Time, keyValues []interface{}) {

@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmechov4 // import "go.elastic.co/apm/module/apmechov4/v2"
+package apmechov4 // import "github.com/waldiirawan/apm-agent-go/module/apmechov4/v2"
 
 import (
 	"errors"
@@ -26,8 +26,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"go.elastic.co/apm/module/apmhttp/v2"
-	"go.elastic.co/apm/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmhttp/v2"
+	"github.com/waldiirawan/apm-agent-go/v2"
 )
 
 // Middleware returns a new Echo middleware handler for tracing

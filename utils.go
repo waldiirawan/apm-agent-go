@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apm // import "go.elastic.co/apm/v2"
+package apm // import "github.com/waldiirawan/apm-agent-go/v2"
 
 import (
 	"context"
@@ -32,11 +32,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/v2/internal/apmcloudutil"
-	"go.elastic.co/apm/v2/internal/apmhostutil"
-	"go.elastic.co/apm/v2/internal/apmlog"
-	"go.elastic.co/apm/v2/internal/apmstrings"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmcloudutil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmhostutil"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmlog"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmstrings"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 var (

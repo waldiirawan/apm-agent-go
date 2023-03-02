@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmgocql // import "go.elastic.co/apm/module/apmgocql/v2"
+package apmgocql // import "github.com/waldiirawan/apm-agent-go/module/apmgocql/v2"
 
 import (
 	"context"
 
 	"github.com/gocql/gocql"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/stacktrace"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/stacktrace"
 )
 
 func init() {

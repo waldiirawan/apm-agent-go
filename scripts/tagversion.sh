@@ -4,7 +4,7 @@ set -e
 SED=sed
 if [[ $(uname -s) == "Darwin" ]]; then SED=gsed; fi
 
-prefix=go.elastic.co/apm
+prefix=github.com/waldiirawan/apm-agent-go
 version=$(${SED} 's@^\s*AgentVersion = "\(.*\)"$@\1@;t;d' version.go)
 major_version=$(echo $version | cut -d. -f1)
 modules=$(for dir in $(./scripts/moduledirs.sh); do (cd $dir && go list -m); done | grep ${prefix})

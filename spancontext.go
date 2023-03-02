@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apm // import "go.elastic.co/apm/v2"
+package apm // import "github.com/waldiirawan/apm-agent-go/v2"
 
 import (
 	"fmt"
@@ -23,8 +23,8 @@ import (
 	"net/url"
 	"strings"
 
-	"go.elastic.co/apm/v2/internal/apmhttputil"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/internal/apmhttputil"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 // SpanContext provides methods for setting span context.

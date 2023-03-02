@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmsqlserver // import "go.elastic.co/apm/module/apmsql/v2/sqlserver"
+package apmsqlserver // import "github.com/waldiirawan/apm-agent-go/module/apmsql/v2/sqlserver"
 
 import (
 	mssql "github.com/denisenkom/go-mssqldb"
 
-	"go.elastic.co/apm/module/apmsql/v2"
+	"github.com/waldiirawan/apm-agent-go/module/apmsql/v2"
 )
 
 func init() {

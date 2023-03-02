@@ -1,4 +1,4 @@
-module go.elastic.co/apm/module/apmgoredis/v2
+module github.com/waldiirawan/apm-agent-go/module/apmgoredis/v2
 
 go 1.15
 
@@ -7,8 +7,8 @@ require (
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/stretchr/testify v1.6.1
-	go.elastic.co/apm/v2 v2.2.0
+	github.com/waldiirawan/apm-agent-go/v2 v2.2.0
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-replace go.elastic.co/apm/v2 => ../..
+replace github.com/waldiirawan/apm-agent-go/v2 => ../..

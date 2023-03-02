@@ -25,7 +25,7 @@ import (
 	"os"
 	"strings"
 
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 const (

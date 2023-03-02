@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-package apmtest // import "go.elastic.co/apm/v2/apmtest"
+package apmtest // import "github.com/waldiirawan/apm-agent-go/v2/apmtest"
 
 import (
 	"context"
 
-	"go.elastic.co/apm/v2"
-	"go.elastic.co/apm/v2/model"
+	"github.com/waldiirawan/apm-agent-go/v2"
+	"github.com/waldiirawan/apm-agent-go/v2/model"
 )
 
 // WithTransaction is equivalent to calling WithTransactionOptions with a zero TransactionOptions.
