@@ -25,8 +25,8 @@ import (
 )
 
 // DriverName for pgx v4
-const DriverName = apmsql.DriverPrefix + "pgx"
+const DriverName = apmsql.DriverPrefix + "pgx/v4"
 
 func init() {
-	apmsql.Register("pgx", &stdlib.Driver{}, apmsql.WithDSNParser(pgutil.ParseDSN))
+	apmsql.Register("pgx/v4", &stdlib.Driver{}, apmsql.WithDSNParser(pgutil.ParseDSN))
 }
